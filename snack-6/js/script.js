@@ -17,5 +17,7 @@ for (let i=0; i < partyList.length; i++){
 }
 
 if(accepted){
-  console.log(guestName)
+  console.log('accepted guest ', guestName)
+} else {
+  console.log('access denied')
 }
