@@ -4,9 +4,10 @@ const fourDigits = parseInt(prompt('inserisci un numero a quattro cifre'));
 let result = twoDigits;
 // moltiplica il primo numero per 2 finche' non arriva ad essere maggiore del secondo numero.
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 1; i++) {
+  result = result * 2;
   if (fourDigits > result){
-    result = result * 2
+    i--;
   }
 }
 

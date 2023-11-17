@@ -9,6 +9,6 @@ numCounter.append(randomNum);
 // Ad ogni click del bottone aumento il numero nell'h1 di 3 e lo aggiorno in pagina. 
 
 btnElement.addEventListener('click', function() {
-  randomNum = randomNum + 3
-  numCounter.innerHTML = randomNum
+  randomNum = randomNum + 3;
+  numCounter.innerHTML = randomNum;
 })
